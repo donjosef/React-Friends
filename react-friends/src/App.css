@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.List {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ListItem {
+  border: 1px solid #999;
+  padding: 20px;
+  -webkit-box-shadow: 0 2px 1px #444;
+  box-shadow: 0 2px 1px #444;
+  margin: 20px auto;
+  width: 450px
+}
+
+.FriendsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 450px;
+  background: #112233;
+  color: white;
+  text-align: center;
+  margin: -20px auto 0;
+  animation: drop-down 0.7s;
+}
+
+.Friend {
+  padding: 20px;
+  text-decoration: underline;
+}
+
+
+@keyframes drop-down {
+  from { max-height: 0px; }
+  to { max-height: 1000px; }
+}
+
+.Friend {
+  padding: 15px 10px;
+}
